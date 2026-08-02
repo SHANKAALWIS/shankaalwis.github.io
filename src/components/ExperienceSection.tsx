@@ -63,7 +63,7 @@ const ExperienceSection = () => {
 
   const experiences = [
     {
-      "title": "Junior Lead | Technologies",
+      "title": "Junior Lead | Technologies and Integration",
       "company": "Spa Ceylon Ayurveda Wellness",
       "icon": spaCeylonIcon,
       "forceWhiteBackground": true,
