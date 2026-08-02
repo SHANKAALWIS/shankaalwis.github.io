@@ -13,6 +13,7 @@ const CertificationsSection = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
+          setShouldDecode(true);
         } else {
           setShouldDecode(false);
         }
@@ -45,6 +46,30 @@ const CertificationsSection = () => {
       "skills": ["Cybersecurity", "Cybersecurity Threats", "Information Security Principles", "Malware Attacks", "Social Engineering", "Threat Intelligence"]
     },
     {
+      "name": "Microsoft Azure Fundamentals",
+      "organization": "Microsoft",
+      "year": "2022",
+      "image": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
+      "description": "Fundamental knowledge of Microsoft Azure services and cloud concepts",
+      "skills": ["Azure", "Cloud Data", "Cloud Networking", "Cloud Security", "Cloud Services", "Cloud Storage", "Virtualization"]
+    },
+    {
+      "name": "Google Professional Workspace Administrator",
+      "organization": "Google Cloud Training",
+      "year": "2022",
+      "image": "https://images.credly.com/images/16d3e89c-4af5-47d8-a502-2a93b02c26d4/image.png",
+      "description": "Expertise in managing Google Workspace domains, users, and security settings",
+      "skills": ["Google Workspace", "Help Desk Support", "Identity And Access Management (IAM)", "Productivity Software", "System Administration", "Teleconferencing", "User Account Management"]
+    },
+    {
+      "name": "Google IT Support Specialization",
+      "organization": "Google",
+      "year": "2022",
+      "image": "https://images.credly.com/size/680x680/images/ae2f5bae-b110-4ea1-8e26-77cf5f76c81e/GCC_badge_IT_Support_1000x1000.png",
+      "description": "Practical IT support skills including troubleshooting, system administration, and customer support",
+      "skills": ["Computer Networking", "Customer Service", "IT Infrastructure Services", "IT Support", "Operating Systems", "Security", "System Administration", "Troubleshooting"]
+    },
+    {
       "name": "Prompt Design in Vertex AI",
       "organization": "Google Cloud",
       "year": "2024",
@@ -75,30 +100,6 @@ const CertificationsSection = () => {
       "image": "https://uom.lk/sites/default/files/logoUoM_0_0_0.png",
       "description": "Fundamentals of Python programming and basic scripting techniques",
       "skills": ["Python", "Scripting", "Programming Basics"]
-    },
-    {
-      "name": "Google Professional Workspace Administrator",
-      "organization": "Google Cloud Training",
-      "year": "2022",
-      "image": "https://images.credly.com/images/16d3e89c-4af5-47d8-a502-2a93b02c26d4/image.png",
-      "description": "Expertise in managing Google Workspace domains, users, and security settings",
-      "skills": ["Google Workspace", "Help Desk Support", "Identity And Access Management (IAM)", "Productivity Software", "System Administration", "Teleconferencing", "User Account Management"]
-    },
-    {
-      "name": "Google IT Support Specialization",
-      "organization": "Google",
-      "year": "2022",
-      "image": "https://images.credly.com/size/680x680/images/ae2f5bae-b110-4ea1-8e26-77cf5f76c81e/GCC_badge_IT_Support_1000x1000.png",
-      "description": "Practical IT support skills including troubleshooting, system administration, and customer support",
-      "skills": ["Computer Networking", "Customer Service", "IT Infrastructure Services", "IT Support", "Operating Systems", "Security", "System Administration", "Troubleshooting"]
-    },
-    {
-      "name": "Microsoft Azure Fundamentals",
-      "organization": "Microsoft",
-      "year": "2022",
-      "image": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
-      "description": "Fundamental knowledge of Microsoft Azure services and cloud concepts",
-      "skills": ["Azure", "Cloud Data", "Cloud Networking", "Cloud Security", "Cloud Services", "Cloud Storage", "Virtualization"]
     },
     {
       "name": "Introduction to Cyber Security",
