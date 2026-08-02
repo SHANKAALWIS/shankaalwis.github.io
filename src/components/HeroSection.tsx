@@ -11,13 +11,16 @@ const HeroSection = () => {
 
   useEffect(() => {
     setIsVisible(true);
+    setShouldDecode(true);
   }, []);
 
-  // Re-scramble when scrolled away
+  // Decode when in view, re-scramble when scrolled away
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (!entry.isIntersecting) {
+        if (entry.isIntersecting) {
+          setShouldDecode(true);
+        } else {
           setShouldDecode(false);
         }
       },

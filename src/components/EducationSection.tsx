@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import { GraduationCap, Calendar, MapPin, School } from 'lucide-react';
 import TextShuffle from './TextShuffle';
 import ScrambleText from './ScrambleText';
+import aetiLogo from '../assets/logos/AETI_Logo-25k58nm6.jpg';
 
 const EducationLogo = ({ icon, alt }: { icon?: string; alt: string }) => {
   const [hasError, setHasError] = useState(false);
@@ -41,6 +42,7 @@ const EducationSection = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
+          setShouldDecode(true);
         } else {
           setShouldDecode(false);
         }
@@ -90,7 +92,7 @@ const EducationSection = () => {
       degree: "Motor Mechanism Part-I/II",
       institution: "Automobile Engineering Training Institute",
       location: "AETI, LK",
-      icon: "https://www.pickacourse.lk/storage/28/29.Automobile.jpg",
+      icon: aetiLogo,
       duration: "2023 - 2024",
       gpa: "",
       notes: "Completed foundational training in motor mechanism, covering basic automotive systems, engine components, maintenance practices, and mechanical principles essential for further specialization in automobile engineering.",

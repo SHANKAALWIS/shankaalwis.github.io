@@ -63,13 +63,23 @@ const ExperienceSection = () => {
 
   const experiences = [
     {
+      "title": "Junior Lead | Technologies",
+      "company": "Spa Ceylon Ayurveda Wellness",
+      "icon": spaCeylonIcon,
+      "forceWhiteBackground": true,
+      "location": "Sri Lanka",
+      "duration": "Nov 2025 - Present",
+      "description": "Spearheading digital transformation strategy and technology leadership across Spa Ceylon's ecosystem. Driving enterprise system modernizations, cross-functional engineering initiatives, IT governance, and data-driven solutions to scale retail and digital operations.",
+      "technologies": ["IT Leadership", "Digital Transformation", "System Architecture", "IT Governance", "Strategy"]
+    },
+    {
       "title": "Digital Transformation and Technologies Executive",
       "company": "Spa Ceylon Ayurveda Wellness",
       "icon": spaCeylonIcon,
       "forceWhiteBackground": true,
       "location": "Sri Lanka",
-      "duration": "Sep 2025 - Present",
-      "description": "Led enterprise-wide technology initiatives to streamline operations and accelerate Spa Ceylon’s digital transformation. Partnered with cross-functional leaders to modernize system architecture, strengthen IT governance, and establish data pipelines and dashboards that enabled faster, evidence-based decisions. Elevated reliability and security across core systems, improved workflow automation, and supported CX and retail programs with cleaner data and better insights.",
+      "duration": "May 2025 - Nov 2025",
+      "description": "Led enterprise-wide technology initiatives to streamline operations and accelerate Spa Ceylon’s digital transformation. Partnered with cross-functional leaders to modernize system architecture, strengthen IT governance, and establish data pipelines and dashboards for evidence-based decisions.",
       "technologies": ["IT Operations", "Digital Transformation", "System Architecture", "Leadership"]
     },
     {
@@ -78,8 +88,8 @@ const ExperienceSection = () => {
       "icon": spaCeylonIcon,
       "forceWhiteBackground": true,
       "location": "Sri Lanka",
-      "duration": "Apr 2025 - Sep 2025",
-      "description": "Leading technology initiatives and supporting the digital transformation of Spa Ceylon’s operations. Collaborating across departments to streamline systems, improve IT governance, and enable data-driven decisions.",
+      "duration": "Apr 2025 - May 2025",
+      "description": "Led technology initiatives and supported the digital transformation of Spa Ceylon’s operations. Collaborated across departments to streamline systems, improve IT governance, and enable data-driven decisions.",
       "technologies": ["IT Operations", "Digital Transformation", "System Architecture", "Leadership"]
     },
     {
